@@ -1,0 +1,24 @@
+Sintaxis xproba 1
+
+
+<xproba>
+<bosque>
+<arbol nbarbol='clientes' frecuencia='100'>
+<atributo nbatributo="tienda">
+<valor frecuencia='25' encendido="0" nbvalor="aquí">
+<atributo nbatributo="producto">
+<valor frecuencia='20' encendido="1" nbvalor="A"></valor>
+<valor frecuencia='5' encendido="0" nbvalor="B" ></valor>
+</atributo>
+</valor>
+<valor frecuencia='75' encendido="0" nbvalor="allá">
+<atributo nbatributo="tienda">
+<valor frecuencia='5' encendido="0" nbvalor="A"></valor>
+<valor frecuencia='20' encendido="0" nbvalor="B"></valor>
+<valor frecuencia='50' encendido="0" nbvalor="C"></valor>
+</atributo>
+</valor>
+</atributo>
+</arbol>
+</bosque>
+</xproba>

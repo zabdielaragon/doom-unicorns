@@ -1,0 +1,73 @@
+http://www.utilities-online.info/xmltojson/#.WhxEIlGLSUk
+
+https://codebeautify.org/xmltojson
+
+El codificador de json esta en ONTOs, en la parte de JSON interprete
+
+{
+  "metodos": {
+    "metodo": {
+      "nbmetodo": "calcular isan",
+      "asignacion": {
+        "atributo": "precio",
+        "operando": "250"
+      },
+      "decision": {
+        "condicion": "precio menorque 200 ",
+        "verdadero": {
+          "metodo": {
+            "nbmetodo": "segmento 1",
+            "asignacion": [
+              {
+                "atributo": "tasa",
+                "operando": "0.02"
+              },
+              {
+                "atributo": "cuota",
+                "operando": "0"
+              }
+            ]
+          }
+        },
+        "falso": {
+          "metodo": {
+            "nbmetodo": "prueba 2",
+            "decision": {
+              "condicion": "precio menorque 300 ",
+              "verdadero": {
+                "metodo": {
+                  "nbmetodo": "segmento 2",
+                  "asignacion": [
+                    {
+                      "atributo": "tasa",
+                      "operando": "0.05"
+                    },
+                    {
+                      "atributo": "cuota",
+                      "operando": "3"
+                    }
+                  ]
+                }
+              },
+              "falso": {
+                "metodo": {
+                  "nbmetodo": "segmento 3",
+                  "asignacion": [
+                    {
+                      "atributo": "tasa",
+                      "operando": "0.07"
+                    },
+                    {
+                      "atributo": "cuota",
+                      "operando": "5"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+var text = '{ "precio":"decimal", "isan":"function() {precio=247000; if (precio <246423.65 ) {isan=precio*0.02;}else if (precio <295708.33 ) {isan=((precio-246423.66)*0.05)+4928.39;}else if (precio <344993.2 ) {isan=((precio-295708.34)*0.10)+7392.74;} else if (precio <443562.39 ) {isan=((precio-344993.21)*0.15)+12321.20;}else{isan=((precio-443562.40)*0.17)+27106.55;} return isan;}"}';
+
+var obj = JSON.parse(text);
+obj.isan = eval("(" + obj.isan + ")");
+
+document.getElementById("demo").innerHTML = "isan: " + obj.isan();
