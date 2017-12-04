@@ -1,8 +1,4 @@
-http://www.utilities-online.info/xmltojson/#.WhxEIlGLSUk
-
-https://codebeautify.org/xmltojson
-
-El codificador de json esta en ONTOs, en la parte de JSON interprete
+V.1
 
 {
   "metodos": {
